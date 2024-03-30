@@ -20,9 +20,7 @@
 .header {
     padding: 2rem 2rem;
     display: flex;
-    /* background: linear-gradient(135deg, #fdc664, #ffe7be); */
     border-bottom: 2px solid #36454F;
-    /* color: #fdc664; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +54,6 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    width: fit-content;
 }
 
 .calculator {
@@ -68,7 +65,6 @@ nav a {
 }
 
 .left {
-    /* background: #c1b9ae; */
     background: linear-gradient(90deg, black, #36454F);
     border-radius: 10px 0px 0px 10px;
     padding: 1rem;
@@ -95,10 +91,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 450px; */
-    /* height: 450px; */
 }
-
 
 .display {
     background: black;
@@ -121,19 +114,16 @@ p {
     border: none;
     font-size: 1.5rem;
     cursor: none;
-    /* border: 2px solid red; */
 }
 
 
 .row button {
-    /* border: 0; */
     outline: 0;
     width: 55px;
     height: 55px;
     border-radius: 10px;
     background: transparent;
     box-shadow: -8px -8px 15px rgba(255,231,190, 0.1), 5px 5px 15px rgba(255,231,190, 0.2);
-    /* scale: 1.1; */
     cursor: pointer;
     margin: 2px;
     color: #fdc664;
@@ -151,7 +141,6 @@ p {
     height: 40px;
     border-radius: 5px;
     color: #36454F;
-    /* cursor: pointer; */
 }
 
 label {    
@@ -170,7 +159,6 @@ button {
 }
 
 .result {
-    width: 400px;
     font-weight: bold;
 }
 
@@ -206,7 +194,6 @@ button {
     .slider {
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         animation: slideIn 1s forwards;
         gap: 2rem;
     }
@@ -233,6 +220,10 @@ button {
         border-radius: 10px 10px 0px 0px;
         flex-direction: column;
         gap: 1rem;
+        width: fit-content;
+    }
+    .right {
+        width: fit-content;
     }
 
     .footer {
@@ -258,4 +249,16 @@ button {
             transform: translateX(0);
         }
     }
+}
+
+@media screen and (max-width: 490px) {
+    .left {
+        font-size: 0.8rem;
+    }
+
+    .right div {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
