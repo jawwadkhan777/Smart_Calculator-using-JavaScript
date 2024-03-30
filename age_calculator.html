@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header"></header>
+
+        <div class="calculator">
+            <div class="left">
+                <h1>Age Calculator</h1>
+                <p>Welcome to the Age Calculator, your reliable tool for swiftly determining age or intervals between
+                    two dates. <br>
+                    <b>How to Use:</b> <br>
+                    Input Dates: Enter the date of birth and the date to calculate the age at. Ensure accurate entries
+                    for precise results. <br>
+                    Click "Calculate Age": With a single click, unleash the power of calculation. Watch as the Age
+                    Calculator swiftly computes the age in years, months, weeks, days, hours, minutes, and seconds. <br>
+                    <b>What Results to Expect:</b> <br>
+                    Detailed Age Breakdown: Gain insights into age nuances with a comprehensive breakdown. From years to
+                    seconds, every detail is accounted for, offering a holistic view of time.,
+                </p>
+            </div>
+            <div class="right align">
+                <div><label for="dob">Date of Birth</label><input type="date" id="dob" class="input-box"></div>
+                <div><label for="dop">Age at the Date of</label><input type="date" id="dop" class="input-box"></div>
+                <button>Calculate Age</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <footer id="footer"></footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

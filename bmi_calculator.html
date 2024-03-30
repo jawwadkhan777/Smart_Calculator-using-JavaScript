@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header"></header>
+
+        <div class="calculator">
+            <div class="left">
+                <h1>BMI Calculator</h1>
+                <p>Welcome to your personal BMI Calculator, your go-to tool for assessing your body mass index (BMI) and
+                    understanding your health status at a glance. <br>
+                    <b>How to Use:</b> <br>
+                    Input your age, height (in centimeters), and weight (in kilograms) into the designated fields. <br>
+                    Simply click the button "Calculate BMI" to generate your BMI result instantly. <br>
+                    <b>What Results to Expect:</b> <br>
+                    <i>BMI Value:</i> Your BMI will be displayed accurately with two decimal places, providing a precise
+                    measurement of your body mass index. <br>
+                    <i>Interpretation:</i> Alongside your BMI value, you'll receive a clear and concise message
+                    indicating whether you are underweight, healthy, overweight, or obese based on your calculated BMI.
+                    <br>
+                    Empower yourself with knowledge about your body composition and take proactive steps towards a
+                    healthier lifestyle with our BMI Calculator.
+                </p>
+            </div>
+            <div class="right align">
+                <div><label for="age">Enter Age</label><input type="number" id="age" placeholder="e.g. 25" class="input-box"></div>
+                <div><label for="height">Enter Height(cm)</label><input type="number" id="height" placeholder="e.g. 175" class="input-box">
+                </div>
+                <div><label for="weight">Enter Weight(kg)</label><input type="number" id="weight" placeholder="e.g. 60" class="input-box">
+                </div><button>Calculate BMI</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <footer id="footer"></footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
