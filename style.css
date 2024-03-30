@@ -256,7 +256,7 @@ button {
         font-size: 0.8rem;
     }
 
-    .right div {
+    .align div {
         display: flex;
         flex-direction: column;
     }
