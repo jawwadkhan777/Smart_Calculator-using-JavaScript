@@ -29,7 +29,3 @@ To get started with Smart Calculator, simply clone this repository and open the 
 ## Support and Feedback 📧
 
 If you encounter any issues while using Smart Calculator or have any suggestions for improvement, please feel free to reach out to the developer, @jawwadkhan777, via [email](mailto:m.jawwadkhan777@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/jawwadkhan777/).
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
