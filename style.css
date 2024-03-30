@@ -261,4 +261,8 @@ button {
         flex-direction: column;
     }
 
+    .footer {
+        font-size: 1rem;
+    }
+
 }
