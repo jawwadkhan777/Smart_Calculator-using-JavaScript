@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const calculateButton = document.querySelector(
     ".calculator button"
   );
-  const resultDisplay = document.querySelector(".calculator .result");
+  const resultDisplay = document.querySelector(".result");
 
   // Add event listener to the calculate button
   calculateButton.addEventListener("click", function () {

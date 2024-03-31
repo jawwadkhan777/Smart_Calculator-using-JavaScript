@@ -91,6 +91,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 425px;
 }
 
 .display {
@@ -223,6 +224,7 @@ button {
         width: fit-content;
     }
     .right {
+        max-width: 425px;
         width: fit-content;
     }
 
@@ -254,6 +256,11 @@ button {
 @media screen and (max-width: 490px) {
     .left {
         font-size: 0.8rem;
+    }
+
+    .right {
+        max-width: 260px;
+        width: fit-content;
     }
 
     .align div {
