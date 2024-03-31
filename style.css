@@ -91,7 +91,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 425px;
 }
 
 .display {
@@ -161,6 +160,7 @@ button {
 
 .result {
     font-weight: bold;
+    width: 400px;
 }
 
 .footer {
@@ -223,10 +223,6 @@ button {
         gap: 1rem;
         width: fit-content;
     }
-    .right {
-        max-width: 425px;
-        width: fit-content;
-    }
 
     .footer {
         flex-direction: column;
@@ -258,14 +254,14 @@ button {
         font-size: 0.8rem;
     }
 
-    .right {
-        max-width: 260px;
-        width: fit-content;
-    }
-
     .align div {
         display: flex;
         flex-direction: column;
+    }
+
+    .result {
+        width: 220px;
+        font-size: 0.8rem;
     }
 
     .footer {
